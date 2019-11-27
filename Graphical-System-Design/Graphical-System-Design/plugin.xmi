@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_na-UYBBxEeqt25k-YHwz7g" guid="_na-UYBBxEeqt25k-YHwz7g">
+    <subManagers xmi:id="_ZWR-sBB-Eeqt25k-YHwz7g" href="uma://_ZV6yUBB-Eeqt25k-YHwz7g#_ZWR-sBB-Eeqt25k-YHwz7g"/>
+    <subManagers xmi:id="_z633sBB-Eeqt25k-YHwz7g" href="uma://_z6jHkBB-Eeqt25k-YHwz7g#_z633sBB-Eeqt25k-YHwz7g"/>
+    <resourceDescriptors xmi:id="_ZWQJgBB-Eeqt25k-YHwz7g" id="_ZV6yUBB-Eeqt25k-YHwz7g" uri="capabilitypatterns/Graphical-System-Design/model.xmi"/>
+    <resourceDescriptors xmi:id="_z62CgBB-Eeqt25k-YHwz7g" id="_z6jHkBB-Eeqt25k-YHwz7g" uri="deliveryprocesses/Ciclo/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_na6qABBxEeqt25k-YHwz7g" name="Graphical-System-Design" guid="_na6qABBxEeqt25k-YHwz7g">
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qARBxEeqt25k-YHwz7g" name="Content" guid="_na6qARBxEeqt25k-YHwz7g">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qAhBxEeqt25k-YHwz7g" name="Categories" guid="_na6qAhBxEeqt25k-YHwz7g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qAxBxEeqt25k-YHwz7g" name="Domains" guid="_na6qAxBxEeqt25k-YHwz7g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qBBBxEeqt25k-YHwz7g" name="Disciplines" guid="_na6qBBBxEeqt25k-YHwz7g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qBRBxEeqt25k-YHwz7g" name="RoleSets" guid="_na6qBRBxEeqt25k-YHwz7g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qBhBxEeqt25k-YHwz7g" name="WP Types" guid="_na6qBhBxEeqt25k-YHwz7g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qBxBxEeqt25k-YHwz7g" name="Tools" guid="_na6qBxBxEeqt25k-YHwz7g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qCBBxEeqt25k-YHwz7g" name="StandardCategories" guid="_na6qCBBxEeqt25k-YHwz7g"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qCRBxEeqt25k-YHwz7g" name="CustomCategories" guid="_na6qCRBxEeqt25k-YHwz7g">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qChBxEeqt25k-YHwz7g" name="Hidden" guid="_na6qChBxEeqt25k-YHwz7g">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_na6qCxBxEeqt25k-YHwz7g" name="Custom Categories" guid="_na6qCxBxEeqt25k-YHwz7g"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_na6qDBBxEeqt25k-YHwz7g" name="CoreContent" guid="_na6qDBBxEeqt25k-YHwz7g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_tckDYBBxEeqt25k-YHwz7g" name="Design" guid="_tckDYBBxEeqt25k-YHwz7g" presentationName="Design">
+          <methodElementProperty xmi:id="_tckqcBBxEeqt25k-YHwz7g" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_we82UBBxEeqt25k-YHwz7g" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Bj0QEBBzEeqt25k-YHwz7g" name="pesquisador" guid="_Bj0QEBBzEeqt25k-YHwz7g" presentationName="Pesquisador">
+            <methodElementProperty xmi:id="_DsBSsBBzEeqt25k-YHwz7g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Eg-kwBBzEeqt25k-YHwz7g" name="arquivos" guid="_Eg-kwBBzEeqt25k-YHwz7g" presentationName="arquivos" briefDescription="dados obtidos apartir de arquivos">
+            <methodElementProperty xmi:id="_jtTd4BBzEeqt25k-YHwz7g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kDnsIBBzEeqt25k-YHwz7g" name="banco_de_dados" guid="_kDnsIBBzEeqt25k-YHwz7g" presentationName="Banco de Dados" briefDescription="dados obtidos a partir do banco de dados">
+            <methodElementProperty xmi:id="_pAw7kBBzEeqt25k-YHwz7g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_ReV9oBB0Eeqt25k-YHwz7g" name="resultado" guid="_ReV9oBB0Eeqt25k-YHwz7g" presentationName="Resultado" briefDescription="Os resultados do processo de simulação são salvos para pós-análise e visualização e podem ser usados ​​para introduzir mudanças no modelo.">
+            <methodElementProperty xmi:id="_UI--8BB0Eeqt25k-YHwz7g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_DLkTMBCCEeqbptNabr6HFg" name="analise_e_controle" guid="_DLkTMBCCEeqbptNabr6HFg" presentationName="Analise e Controle" briefDescription="o pesquisador desenvolve um modelo matemático do sistema, incluindo sensores, atuadores, plantas e controladores, e os simula sob uma variedade de condições e restrições iniciais. ">
+            <methodElementProperty xmi:id="_EN-LYBCCEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Ftv8EBCCEeqbptNabr6HFg" name="dados_de_referencia" guid="_Ftv8EBCCEeqbptNabr6HFg" presentationName="Dados de Referência">
+            <methodElementProperty xmi:id="_HCLYYBCCEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JDskMBCCEeqbptNabr6HFg" name="resultados" guid="_JDskMBCCEeqbptNabr6HFg" presentationName="Resultados" briefDescription="apresentacao do resultado da analise">
+            <methodElementProperty xmi:id="_KO0TgBCCEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xhlYABBxEeqt25k-YHwz7g" name="Prototyping" guid="_xhlYABBxEeqt25k-YHwz7g">
+          <methodElementProperty xmi:id="_xhlYARBxEeqt25k-YHwz7g" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_yVv_4BBxEeqt25k-YHwz7g" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_az-QQBB0Eeqt25k-YHwz7g" name="pesquisador" guid="_az-QQBB0Eeqt25k-YHwz7g" presentationName="Pesquisador">
+            <methodElementProperty xmi:id="_bz1KwBB0Eeqt25k-YHwz7g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_z_rDsBB0Eeqt25k-YHwz7g" name="resultado" guid="_z_rDsBB0Eeqt25k-YHwz7g" presentationName="Resultado" briefDescription="Os resultados experimentais obtidos nesta fase podem ser usados ​​para modificar e otimizar o modelo original, o que, por sua vez, pode exigir experimentos adicionais.">
+            <methodElementProperty xmi:id="_8pq_YBB0Eeqt25k-YHwz7g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_H0SdsBB1Eeqt25k-YHwz7g" name="dados" guid="_H0SdsBB1Eeqt25k-YHwz7g" presentationName="Dados" briefDescription="Os dados capturados também podem ser usados ​​para identificação do sistema e estimativa de parâmetros. Usando dispositivos de aquisição de dados PCI / PXI ou dispositivos de medição externos conectados a um PC via portas USB, Ethernet, GPIB ou serial.">
+            <methodElementProperty xmi:id="_OfWAcBB1Eeqt25k-YHwz7g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MiBsQBCCEeqbptNabr6HFg" name="analise_e_controle" guid="_MiBsQBCCEeqbptNabr6HFg" presentationName="Analise e Controle">
+            <methodElementProperty xmi:id="_Qeb3cBCCEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_SEt4wBCCEeqbptNabr6HFg" name="aquisicao_e_referencia_de_dados" guid="_SEt4wBCCEeqbptNabr6HFg" presentationName="Aquisição e referência de dados">
+            <methodElementProperty xmi:id="_UkUHsBCCEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WRgCQBCCEeqbptNabr6HFg" name="resultados" guid="_WRgCQBCCEeqbptNabr6HFg" presentationName="Resultados" briefDescription="apresentacao do resultado da analise">
+            <methodElementProperty xmi:id="_Xn7psBCCEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YluusBCCEeqbptNabr6HFg" name="sinais" guid="_YluusBCCEeqbptNabr6HFg" presentationName="Sinais">
+            <methodElementProperty xmi:id="_Za3m8BCCEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1yaUABBxEeqt25k-YHwz7g" name="Deployment" guid="_1yaUABBxEeqt25k-YHwz7g" presentationName="Deployment" briefDescription="A transição da fase de prototipagem para a fase de implantação pode ser muito rápida e eficiente, porque o mesmo conjunto de ferramentas usadas para a prototipagem pode, na maioria dos casos, ser aplicado à implantação final do sistema em campo.">
+          <methodElementProperty xmi:id="_1yaUARBxEeqt25k-YHwz7g" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_3TYXgBBxEeqt25k-YHwz7g" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_dj-LUBB3Eeqt25k-YHwz7g" name="pesquisador" guid="_dj-LUBB3Eeqt25k-YHwz7g" presentationName="Pesquisador">
+            <methodElementProperty xmi:id="_e9wowBB3Eeqt25k-YHwz7g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_tRHOEBCBEeqbptNabr6HFg" name="analise_e_controle" guid="_tRHOEBCBEeqbptNabr6HFg" presentationName="Analise e Controle">
+            <methodElementProperty xmi:id="_vQ1DEBCBEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_v4HFgBCBEeqbptNabr6HFg" name="aquisicao_de_dados" guid="_v4HFgBCBEeqbptNabr6HFg" presentationName="Aquisição de Dados">
+            <methodElementProperty xmi:id="_y5kEUBCBEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_1nWgQBCBEeqbptNabr6HFg" name="resultados" guid="_1nWgQBCBEeqbptNabr6HFg" presentationName="Resultados" briefDescription="opcional nessa fase">
+            <methodElementProperty xmi:id="_2rv8gBCBEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3UL1gBCBEeqbptNabr6HFg" name="sinais" guid="_3UL1gBCBEeqbptNabr6HFg" presentationName="Sinais">
+            <methodElementProperty xmi:id="_-pP-kBCBEeqbptNabr6HFg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_na7REBBxEeqt25k-YHwz7g" name="CapabilityPatterns" guid="_na7REBBxEeqt25k-YHwz7g">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_ZV6yUBB-Eeqt25k-YHwz7g" href="uma://_ZV6yUBB-Eeqt25k-YHwz7g#_ZV6yUBB-Eeqt25k-YHwz7g"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_na7RERBxEeqt25k-YHwz7g" name="DeliveryProcesses" guid="_na7RERBxEeqt25k-YHwz7g">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_z6jHkBB-Eeqt25k-YHwz7g" href="uma://_z6jHkBB-Eeqt25k-YHwz7g#_z6jHkBB-Eeqt25k-YHwz7g"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_na7REhBxEeqt25k-YHwz7g" name="ProcessContributions" guid="_na7REhBxEeqt25k-YHwz7g"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

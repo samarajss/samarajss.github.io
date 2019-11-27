@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_z633sBB-Eeqt25k-YHwz7g" guid="_z633sBB-Eeqt25k-YHwz7g">
+    <resourceDescriptors xmi:id="_z64ewBB-Eeqt25k-YHwz7g" id="-ix-e2cKNuEY-klrY5ZE_7g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_z6jHkBB-Eeqt25k-YHwz7g" name="Ciclo" guid="_z6jHkBB-Eeqt25k-YHwz7g">
+    <methodElementProperty xmi:id="_z6jHkhB-Eeqt25k-YHwz7g" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_3bJjsBCCEeqbptNabr6HFg" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_31y4UBCCEeqbptNabr6HFg" name="Graphical-System-Design" guid="_31y4UBCCEeqbptNabr6HFg">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_31y4URCCEeqbptNabr6HFg" name="Graphical-System-Design" guid="_31y4URCCEeqbptNabr6HFg" superActivities="_z6jHkRB-Eeqt25k-YHwz7g" variabilityType="extends">
+        <methodElementProperty xmi:id="_igBGMBCFEeqbptNabr6HFg" name="publish_ad" value="true"/>
+        <methodElementProperty xmi:id="_UI2sAhCIEeqbptNabr6HFg" name="publish_add" value="true"/>
+        <methodElementProperty xmi:id="_UI2sAxCIEeqbptNabr6HFg" name="publish_wpdd" value="true"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_ZV6yUBB-Eeqt25k-YHwz7g#_ZV6yURB-Eeqt25k-YHwz7g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I1hv4BCDEeqbptNabr6HFg" guid="_I1hv4BCDEeqbptNabr6HFg">
+        <methodElementProperty xmi:id="_I1hv4RCDEeqbptNabr6HFg" name="successor" value="_ivUN0RCCEeqbptNabr6HFg"/>
+        <pred xsi:type="org.eclipse.epf.uma:Phase" href="uma://_ZV6yUBB-Eeqt25k-YHwz7g#_agXPYBCCEeqbptNabr6HFg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_JoA8wBCDEeqbptNabr6HFg" guid="_JoA8wBCDEeqbptNabr6HFg">
+        <methodElementProperty xmi:id="_JoA8wRCDEeqbptNabr6HFg" name="successor" value="_q8wJUBCCEeqbptNabr6HFg"/>
+        <pred xsi:type="org.eclipse.epf.uma:Phase" href="uma://_ZV6yUBB-Eeqt25k-YHwz7g#_ivUN0RCCEeqbptNabr6HFg"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_z6jHkRB-Eeqt25k-YHwz7g" name="Ciclo" guid="_z6jHkRB-Eeqt25k-YHwz7g" presentationName="Ciclo" breakdownElements="_31y4URCCEeqbptNabr6HFg">
+      <methodElementProperty xmi:id="_UI2E8BCIEeqbptNabr6HFg" name="publish_ad" value="true"/>
+      <methodElementProperty xmi:id="_UI2sABCIEeqbptNabr6HFg" name="publish_add" value="true"/>
+      <methodElementProperty xmi:id="_UI2sARCIEeqbptNabr6HFg" name="publish_wpdd" value="true"/>
+      <presentation xmi:id="-ix-e2cKNuEY-klrY5ZE_7g" href="uma://-ix-e2cKNuEY-klrY5ZE_7g#-ix-e2cKNuEY-klrY5ZE_7g"/>
+      <includesPatterns href="uma://_ZV6yUBB-Eeqt25k-YHwz7g#_ZV6yURB-Eeqt25k-YHwz7g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_f9yxIRBxEeqt25k-YHwz7g" guid="_f9yxIRBxEeqt25k-YHwz7g">
+    <subManagers xmi:id="_na-UYBBxEeqt25k-YHwz7g" href="uma://_na6qABBxEeqt25k-YHwz7g#_na-UYBBxEeqt25k-YHwz7g"/>
+    <resourceDescriptors xmi:id="_f9zYMBBxEeqt25k-YHwz7g" id="_f9yxIBBxEeqt25k-YHwz7g" uri=""/>
+    <resourceDescriptors xmi:id="_na-UYRBxEeqt25k-YHwz7g" id="_na6qABBxEeqt25k-YHwz7g" uri="Graphical-System-Design/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_f9yxIBBxEeqt25k-YHwz7g" name="Graphical-System-Design" guid="_f9yxIBBxEeqt25k-YHwz7g">
+    <methodPlugins xmi:id="_na6qABBxEeqt25k-YHwz7g" href="uma://_na6qABBxEeqt25k-YHwz7g#_na6qABBxEeqt25k-YHwz7g"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

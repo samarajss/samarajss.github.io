@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_MTRNkQ-QEeqgmKp1g_FSqA" guid="_MTRNkQ-QEeqgmKp1g_FSqA"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_MTRNgA-QEeqgmKp1g_FSqA" name="Graphical-System-Design" guid="_MTRNgA-QEeqgmKp1g_FSqA">
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNgQ-QEeqgmKp1g_FSqA" name="Content" guid="_MTRNgQ-QEeqgmKp1g_FSqA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNgg-QEeqgmKp1g_FSqA" name="Categories" guid="_MTRNgg-QEeqgmKp1g_FSqA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNgw-QEeqgmKp1g_FSqA" name="Domains" guid="_MTRNgw-QEeqgmKp1g_FSqA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNhA-QEeqgmKp1g_FSqA" name="Disciplines" guid="_MTRNhA-QEeqgmKp1g_FSqA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNhQ-QEeqgmKp1g_FSqA" name="RoleSets" guid="_MTRNhQ-QEeqgmKp1g_FSqA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNhg-QEeqgmKp1g_FSqA" name="WP Types" guid="_MTRNhg-QEeqgmKp1g_FSqA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNhw-QEeqgmKp1g_FSqA" name="Tools" guid="_MTRNhw-QEeqgmKp1g_FSqA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNiA-QEeqgmKp1g_FSqA" name="StandardCategories" guid="_MTRNiA-QEeqgmKp1g_FSqA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNiQ-QEeqgmKp1g_FSqA" name="CustomCategories" guid="_MTRNiQ-QEeqgmKp1g_FSqA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNig-QEeqgmKp1g_FSqA" name="Hidden" guid="_MTRNig-QEeqgmKp1g_FSqA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_MTRNiw-QEeqgmKp1g_FSqA" name="Custom Categories" guid="_MTRNiw-QEeqgmKp1g_FSqA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MTRNjA-QEeqgmKp1g_FSqA" name="CoreContent" guid="_MTRNjA-QEeqgmKp1g_FSqA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PLmskA-QEeqgmKp1g_FSqA" name="design (modeling/simulation)" guid="_PLmskA-QEeqgmKp1g_FSqA" presentationName="GSD">
+          <methodElementProperty xmi:id="_PLwdkA-QEeqgmKp1g_FSqA" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_Qka5oA-QEeqgmKp1g_FSqA" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_frjQ0A-QEeqgmKp1g_FSqA" name="reference-data" guid="_frjQ0A-QEeqgmKp1g_FSqA" presentationName="reference-data">
+            <methodElementProperty xmi:id="_lduq0A-QEeqgmKp1g_FSqA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jY8voA-QEeqgmKp1g_FSqA" name="analysis-control" guid="_jY8voA-QEeqgmKp1g_FSqA" presentationName="analysis/control">
+            <methodElementProperty xmi:id="_lCdEEA-QEeqgmKp1g_FSqA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_7vs4EA-QEeqgmKp1g_FSqA" name="results" guid="_7vs4EA-QEeqgmKp1g_FSqA" presentationName="results">
+            <methodElementProperty xmi:id="_g8eQsA-REeqgmKp1g_FSqA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_CmIH4A-SEeqgmKp1g_FSqA" name="arquivo" guid="_CmIH4A-SEeqgmKp1g_FSqA" presentationName="arquivo">
+            <methodElementProperty xmi:id="_FsBh0A-SEeqgmKp1g_FSqA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_GdWREA-SEeqgmKp1g_FSqA" name="banco-dados" guid="_GdWREA-SEeqgmKp1g_FSqA" presentationName="banco-dados">
+            <methodElementProperty xmi:id="_Kp374A-SEeqgmKp1g_FSqA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_LUC6QA-SEeqgmKp1g_FSqA" name="resultado" guid="_LUC6QA-SEeqgmKp1g_FSqA" presentationName="New Outcome"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Wh6LwA-QEeqgmKp1g_FSqA" name="prototyping" guid="_Wh6LwA-QEeqgmKp1g_FSqA" presentationName="prototyping">
+          <methodElementProperty xmi:id="_Wh6LwQ-QEeqgmKp1g_FSqA" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_X3mMUA-QEeqgmKp1g_FSqA" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UWtDAA-REeqgmKp1g_FSqA" name="signals" guid="_UWtDAA-REeqgmKp1g_FSqA" presentationName="signals">
+            <methodElementProperty xmi:id="_ghMp8A-REeqgmKp1g_FSqA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_iOlY0A-REeqgmKp1g_FSqA" name="data-acquisition&amp;eference-data" guid="_iOlY0A-REeqgmKp1g_FSqA" presentationName="Data Acquisition &amp; Reference Data">
+            <methodElementProperty xmi:id="_sxzf8A-REeqgmKp1g_FSqA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Y9L7YA-QEeqgmKp1g_FSqA" name="deployment" guid="_Y9L7YA-QEeqgmKp1g_FSqA" presentationName="deployment">
+          <methodElementProperty xmi:id="_Y9L7YQ-QEeqgmKp1g_FSqA" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_ZqftUA-QEeqgmKp1g_FSqA" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MTRNjQ-QEeqgmKp1g_FSqA" name="CapabilityPatterns" guid="_MTRNjQ-QEeqgmKp1g_FSqA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MTRNjg-QEeqgmKp1g_FSqA" name="DeliveryProcesses" guid="_MTRNjg-QEeqgmKp1g_FSqA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MTRNjw-QEeqgmKp1g_FSqA" name="ProcessContributions" guid="_MTRNjw-QEeqgmKp1g_FSqA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

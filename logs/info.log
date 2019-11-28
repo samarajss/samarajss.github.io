@@ -1,0 +1,36 @@
+Info: : 5473 mini-second(s) publishing element CapabilityPattern:Graphical-System-Design[Graphical-System-Design\capabilitypatterns\Graphical-System-Design_C22A6CF0.html]
+Info: CapabilityPattern:Graphical-System-Design: 5473 mini seconds publishing element
+Info: CapabilityPattern:Graphical-System-Design: 30 mini seconds publishing process specific layout data
+Info: Phase:Design: 193 mini seconds publishing element
+Info: Task:dados_de_referencia: 755 mini seconds publishing element
+Info: TaskDescriptor:dados_de_referencia: 640 mini seconds publishing element
+Info: Task:analise_e_controle: 60 mini seconds publishing element
+Info: TaskDescriptor:analise_e_controle: 72 mini seconds publishing element
+Info: Task:resultados: 43 mini seconds publishing element
+Info: TaskDescriptor:resultados: 41 mini seconds publishing element
+Info: Phase:Prototipando: 184 mini seconds publishing element
+Info: Task:sinais: 33 mini seconds publishing element
+Info: TaskDescriptor:sinais: 38 mini seconds publishing element
+Info: Task:aquisicao_e_referencia_de_dados: 32 mini seconds publishing element
+Info: TaskDescriptor:aquisicao_e_referencia_de_dados: 26 mini seconds publishing element
+Info: Task:analise_e_controle: 30 mini seconds publishing element
+Info: TaskDescriptor:analise_e_controle: 30 mini seconds publishing element
+Info: Task:resultados: 20 mini seconds publishing element
+Info: TaskDescriptor:resultados: 30 mini seconds publishing element
+Info: Phase:Deployment: 178 mini seconds publishing element
+Info: Task:sinais: 35 mini seconds publishing element
+Info: TaskDescriptor:sinais: 34 mini seconds publishing element
+Info: Task:aquisicao_de_dados: 20 mini seconds publishing element
+Info: TaskDescriptor:aquisicao_de_dados: 30 mini seconds publishing element
+Info: Task:analise_e_controle: 30 mini seconds publishing element
+Info: TaskDescriptor:analise_e_controle: 30 mini seconds publishing element
+Info: Task:resultados: 20 mini seconds publishing element
+Info: TaskDescriptor:resultados: 20 mini seconds publishing element
+Info: : 4675 mini-second(s) publishing element DeliveryProcess:Ciclo[Graphical-System-Design\deliveryprocesses\Ciclo_938F54B5.html]
+Info: DeliveryProcess:Ciclo: 4675 mini seconds publishing element
+Info: DeliveryProcess:Ciclo: 945 mini seconds publishing process specific layout data
+Info: CapabilityPattern:Graphical-System-Design: 639 mini seconds publishing element
+Info: : 2111 mini-second(s) publishing element CustomCategory:Configuration free process view[Configuration free process view_5B25F57.html]
+Info: CustomCategory:Configuration free process view: 2117 mini seconds publishing element
+Info: CustomCategory:Tasks: 45 mini seconds publishing element
+Info: CustomCategory:Processes: 41 mini seconds publishing element
